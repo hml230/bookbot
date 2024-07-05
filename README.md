@@ -1,2 +1,2 @@
 # bookbot
-Mini programming project using CLI/Git 
+Mini programming project to familiarise with CLI/Git 
