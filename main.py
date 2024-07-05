@@ -1,4 +1,4 @@
-import pprint
+
 
 with open("books/frankenstein.txt", "r") as frankenstein_txt: 
     content = frankenstein_txt.read()
@@ -8,9 +8,12 @@ def sortByValue(tuple) -> str:
     return tuple[1]
 
 
+
 def wordCount(text:str) -> int:
     wordArray = text.split()
     return len(wordArray)
+
+
 
 def characterCount(text: str) -> int:
     lowerCaseText= text.lower()
@@ -47,8 +50,6 @@ def printToConsole(text) -> None:
 
 
 
-        
-        
 
 if __name__ == '__main__':
     printToConsole(content)
