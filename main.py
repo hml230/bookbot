@@ -4,8 +4,8 @@ with open("books/frankenstein.txt", "r") as frankenstein_txt:
     content = frankenstein_txt.read()
 
 
-def sortByValue(tuple) -> str:
-    return tuple[1]
+def getSortKey(item: tuple) -> str:
+    return item[1]
 
 
 
@@ -30,10 +30,10 @@ def characterCount(text: str) -> int:
 
 def reportSortedDict(text: str) -> str: 
     reportingItem = list(characterCount(text).items())
-    reportingItem.sort(reverse= True, key =sortByValue)
+    reportingItem.sort(reverse= True, key= getSortKey)
     sortedList = [] 
     for items in reportingItem:
-        if items[0].isalpha() is True:
+        if items[0].isalpha():
             sortedList.append(items) 
     return sortedList
 
