@@ -36,16 +36,9 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -58,7 +51,7 @@ Bookbot is a mini project that takes in a text file as input and perform descrip
 
 ### Built With
 
-* [![Python 3.10.12][(https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)]](https://www.python.org/downloads/release/python-31012/)
+* ![Python 3.10.12](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 
 
