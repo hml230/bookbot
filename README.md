@@ -57,4 +57,3 @@ Bookbot is a mini project that takes in a text file as input and perform descrip
 ## Installation
 The project can be set up by cloning this repo, or you can directly parse the functions in the main file.
 
-https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white
