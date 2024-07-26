@@ -53,20 +53,17 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Bookbot
-Bookbot is a mini project that takes in a .txt file as input and perform descriptive analysis on the file's characters. The project served as my aid in learning version control. 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+Bookbot is a mini project that takes in a text file as input and perform descriptive analysis on the file's words and characters. The project served as an aid in learning version control tools. 
 
 
 ### Built With
 
-* [![Python][Python 3.10.12]][https://www.python.org/downloads/release/python-31012/]]
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* [![Python][Python 3.10.12]][https://www.python.org/downloads/release/python-31012/]
+
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-The project can be set up by cloning this repo, or you can direct parse the logic in the main file.
+## Installation
+The project can be set up by cloning this repo, or you can directly parse the functions in the main file.
 
