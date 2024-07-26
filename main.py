@@ -1,5 +1,3 @@
-
-
 with open("books/frankenstein.txt", "r") as frankenstein_txt: 
     content = frankenstein_txt.read()
 
@@ -8,11 +6,9 @@ def getSortKey(item: tuple) -> str:
     return item[1]
 
 
-
 def wordCount(text:str) -> int:
     wordArray = text.split()
     return len(wordArray)
-
 
 
 def characterCount(text: str) -> int:
@@ -27,7 +23,6 @@ def characterCount(text: str) -> int:
     return uniqueCharacters
 
 
-
 def reportSortedDict(text: str) -> str: 
     reportingItem = list(characterCount(text).items())
     reportingItem.sort(reverse= True, key= getSortKey)
@@ -37,18 +32,13 @@ def reportSortedDict(text: str) -> str:
             sortedList.append(items) 
     return sortedList
 
+
 def printToConsole(text) -> None:
     lettersCount = reportSortedDict(text)
     print(f"Generally, frankenstein.txt has {wordCount(text)} words\n")
     for letters in lettersCount:
         print(f"The '{letters[0]}' character appeared {letters[1]} times\n")
     print(f"All alphabet characters counted, we don't have that many '{lettersCount[-1][0]}' characters")
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
